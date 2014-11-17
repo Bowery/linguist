@@ -160,9 +160,9 @@ module Linguist
           next if blob.vendored? || blob.generated? || blob.language.nil?
 
           # Only include programming languages and acceptable markup languages
-          if blob.language.type == :programming || Language.detectable_markup.include?(blob.language.name)
+          #if blob.language.type == :programming || Language.detectable_markup.include?(blob.language.name)
             file_map[new] = [blob.language.group.name, blob.size]
-          end
+          #end
         end
       end
 
