@@ -64,7 +64,7 @@ You can try running `linguist` on the root directory in this repository itself:
     Gemfile
     Rakefile
     bin/linguist
-    github-linguist.gemspec
+    bowery-linguist.gemspec
     lib/linguist.rb
     lib/linguist/blob_helper.rb
     lib/linguist/classifier.rb
@@ -135,7 +135,7 @@ jquery.js linguist-vendored=false
 
 ## Installation
 
-Github.com is usually running the latest version of the `github-linguist` gem that is released on [RubyGems.org](http://rubygems.org/gems/github-linguist).
+Github.com is usually running the latest version of the `bowery-linguist` gem that is released on [RubyGems.org](http://rubygems.org/gems/bowery-linguist).
 
 But for development you are going to want to checkout out the source. To get it, clone the repo and run [Bundler](http://gembundler.com/) to install its dependencies.
 
@@ -193,4 +193,4 @@ If you are the current maintainer of this gem:
    0. Test behavior locally, branch deploy, whatever needs to happen
  0. Merge github/linguist PR
  0. Tag and push: `git tag vx.xx.xx; git push --tags`
- 0. Push to rubygems.org -- `gem push github-linguist-3.0.0.gem`
+ 0. Push to rubygems.org -- `gem push bowery-linguist-3.0.0.gem`

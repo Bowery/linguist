@@ -1,5 +1,5 @@
 {
-  "repository": "https://github.com/github/linguist",
+  "repository": "https://github.com/bowery/linguist",
   "dependencies": {
     "season": "~>3.0"
   }

@@ -27,14 +27,14 @@ end
 task :build_gem => :samples do
   languages = YAML.load_file("lib/linguist/languages.yml")
   File.write("lib/linguist/languages.json", Yajl.dump(languages))
-  `gem build github-linguist.gemspec`
+  `gem build bowery-linguist.gemspec`
   File.delete("lib/linguist/languages.json")
 end
 
 task :build_grammars_gem do
   rm_rf "grammars"
   sh "script/download-grammars"
-  sh "gem", "build", "github-linguist-grammars.gemspec"
+  sh "gem", "build", "bowery-linguist-grammars.gemspec"
 end
 
 namespace :benchmark do

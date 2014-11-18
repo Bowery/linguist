@@ -1,5 +1,5 @@
-# Note: This file is included in the github-linguist-grammars gem, not the
-# github-linguist gem.
+# Note: This file is included in the bowery-linguist-grammars gem, not the
+# bowery-linguist gem.
 
 module Linguist
   module Grammars
